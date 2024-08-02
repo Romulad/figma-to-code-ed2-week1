@@ -45,6 +45,10 @@
   }
 }
 
+body{
+  background-color: rgb(249, 250, 251);
+}
+
 @layer utilities {
   .font-light {
     font-family: "raleway-light";
