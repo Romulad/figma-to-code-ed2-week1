@@ -1,9 +1,10 @@
+import { boxClasses } from "../../lib/classes"
 import Logo from "../Logo"
 
 
 export default function Footer(){
     return(
-        <footer>
+        <footer className={boxClasses}>
             <div className="pb-2 border-b mb-6">
                 <Logo />
             </div>

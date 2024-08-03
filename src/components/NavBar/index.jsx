@@ -5,6 +5,7 @@ import {
 } from "../../components";
 import openMobileNav from "../../assets/mobileOpenNav.svg";
 import closeMobileNav from "../../assets/mobileCloseNav.svg";
+import { boxClasses } from "../../lib/classes";
 
 export default function NavBar(){
     const mobileNavRef = useRef()
@@ -44,8 +45,8 @@ export default function NavBar(){
     
 
     return(
-        <nav className="flex justify-between items-center font-semi-bold 
-        text-sm mb-5">
+        <nav className={`flex justify-between items-center font-semi-bold 
+        text-sm mb-5 ${boxClasses}`}>
             <a href="/">
                 <Logo />
             </a>

@@ -49,6 +49,10 @@ body{
   background-color: rgb(249, 250, 251);
 }
 
+.last-section{
+  background-image: url(./assets/animalNft.svg);
+}
+
 @layer utilities {
   .font-light {
     font-family: "raleway-light";

@@ -1,15 +1,18 @@
 import { 
     FirstSection,
     Footer,
-    NavBar
+    NavBar,
+    SecondSection,
+    ThirdSection
 } from "../../components";
-
 
 export default function HomePage(){
     return(
-        <div className="my-6 mx-5 sm:mx-10 lg:mx-16 xl:mx-28">
+        <div className={`my-6`}>
             <NavBar />
             <FirstSection />
+            <SecondSection />
+            <ThirdSection />
             <Footer />
         </div>
     )
