@@ -41,7 +41,7 @@ export default function FirstSection(){
                         </div>
                     </div>
 
-                    <div className="h-[270px] w-[170px] bg-red-500 rounded-full
+                    <div className="h-[270px] w-[170px] rounded-full
                     shrink-0">
                         <img src={monkeyImg} alt="Monkey Nft" 
                         className="rounded-full h-full object-cover"

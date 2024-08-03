@@ -68,17 +68,23 @@ export default function ThirdSection(){
 
             <div className={`${boxClasses} mt-16`}>
                 <div className={`w-full rounded-[20px] h-[300px] last-section 
-                    bg-no-repeat bg-cover bg-center flex flex-col gap-5 text-white 
-                    justify-center items-center brightness-50`}>
-                        <h2 className="text-5xl font-semi-bold">
-                            Build your NFT profile
-                        </h2>
-                        <p className="font-semi-bold text-lg">
-                            Join almost <span className="text-xl">10</span>k NFT profiles on Digit !
-                        </p>
-                        <a href="/" className="font-medium bg-white px-6 py-2 text-black rounded-full">
-                            Sign up now
-                        </a>
+                    bg-no-repeat bg-cover bg-center relative`}>
+
+                        <div className="bg-[rgba(0,0,0,0.5)] rounded-[20px] 
+                        absolute w-full h-full top-0 z-10"></div>
+                        
+                        <div className="w-full h-full z-20 relative flex flex-col gap-5 text-white 
+                    justify-center items-center text-center px-2">
+                            <h2 className="text-4xl sm:text-5xl font-semi-bold">
+                                Build your NFT profile
+                            </h2>
+                            <p className="font-semi-bold text-lg">
+                                Join almost <span className="text-xl">10</span>k NFT profiles on Digit !
+                            </p>
+                            <a href="/" className="font-medium bg-white px-6 py-2 text-black rounded-full">
+                                Sign up now
+                            </a>
+                        </div>
                 </div>
             </div>
         </section>
